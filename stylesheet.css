@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    font-family: sans-serif;
+    
+}
+body{
+    background: url(curr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#container{
+    width: 40%;
+    height: 34rem;
+    background: linear-gradient(rgba(1, 19, 20, 0.488),rgba(213, 213, 233, 0.636));
+    box-shadow: 8px 8px 10px rgba(251, 250, 250, 0.481);
+    border: 2px solid white;
+    color: rgb(247, 248, 246);
+    border-radius: 30px;
+    margin-top: 6rem;
+    margin-left: 37rem;
+    
+}
+#container h2{
+    padding-top: 4px;
+    margin-left: 9rem;
+    font-size: 49px;
+    text-shadow: 2px 2px 3px black;
+}
+#inp{
+    width: 55%;
+    height: 28px;
+    margin: 5% 8rem;
+    padding-left: 4px;
+    border:none;
+    outline:none;
+    border-radius: 7px;
+    color: white;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.599);
+}
+#p1{
+    width: 55%;
+    height: 28px;
+    margin: 5% 8rem;
+    padding-left: 4px;
+    border:none;
+    outline:none;
+    border-radius: 7px;
+    color: white;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.599);
+}
+#btn{
+    width: 15%;
+    height: 3rem;
+    margin-left: 22% ;
+    background: rgba(255, 255, 255, 0.599);
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    color:linen;
+    font-size: 19px;    
+}
+#btn1{
+        width: 15%;
+        height: 3rem;
+        margin-left: 22% ;
+        background: rgba(255, 255, 255, 0.599);
+        outline: none;
+        border: none;
+        border-radius: 7px;
+        color:linen;
+        font-size: 19px;
+    
+}
+#para{
+    font-family: sans-serif;
+    font-size: 28px;
+    padding: 15px 15px;
+    margin-left: 8px;
+   
+}

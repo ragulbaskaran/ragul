@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>odd or even</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div id="container">
+            <h2>ODD or EVEN</h2>
+            <div id="content">
+                    <input id="inp" type="number" placeholder="Enter a number"> <br>
+                    <button id="btn1" type="button" onclick="test()" >Check</button>
+                    <button id="btn" type="button" onclick="reset()" >Clear</button><br>
+                    <p id="p1">Enter an integer number</p>
+            </div>
+            <p id="para">This website about finding the given number is odd or even number,
+                         Odd numbers are those numbers that cannot be divided into two equal parts.
+                         Even numbers are those numbers that can be divided into two equal parts.</p>
+
+        </div>
+        <script type="text/javascript">
+            function test()
+            {
+                var num = Number( document.getElementById("inp").value);
+                if (num % 2 == 0) 
+                {
+                    document.getElementById("p1").innerHTML = "is EVEN number";
+                } 
+                else
+                {
+                    document.getElementById("p1").innerHTML = "is ODD number";
+                }
+                
+            }
+            function reset()
+            {
+                document.getElementById("inp").value = "0";
+                document.getElementById("p1").innerHTML = "Enter an integer number";
+            }
+        </script>
+    </body>
+</html>
